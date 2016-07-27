@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <declare-styleable name="YluoTextView">
+        <attr name="pressed_textcolor" format="color" />
+        <attr name="drawable_width" format="dimension"/>
+        <attr name="drawable_height" format="dimension"/>
+        <attr name="press_drawable" format="integer"/>
+        <attr name="create_presseddawable" format="boolean" />
+        <attr name="use_yluo" format="boolean"/>
+    </declare-styleable>
+</resources>

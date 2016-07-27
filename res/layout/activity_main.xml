@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yluo="http://schemas.android.com/apk/res/com.example.yluotextview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light" >
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/e5b"
+        android:text="跑步" 
+         android:textColor="#ff959595"/>
+
+    <com.example.yluotextview.YluoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+          android:layout_marginLeft="100dp"
+        android:drawableTop="@drawable/e5b"
+        android:text="跑步"
+        android:textColor="#ff959595"
+        yluo:create_presseddawable="true"
+        yluo:drawable_height="21dp"
+        yluo:drawable_width="21dp"
+        yluo:pressed_textcolor="#64959595"
+        yluo:use_yluo="true" />
+    
+     <com.example.yluotextview.YluoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="50dp"
+          android:layout_marginLeft="100dp"
+        android:drawableTop="@drawable/e5b"
+        android:text="跑步"
+        android:textColor="#ff959595"
+        yluo:create_presseddawable="true"
+        yluo:drawable_height="21dp"
+        yluo:drawable_width="21dp"
+        yluo:pressed_textcolor="@android:color/holo_red_dark"
+        yluo:use_yluo="true" />
+
+</LinearLayout>
